@@ -1,0 +1,7 @@
+<xf:if is="count($moderators)">
+	{{ phrase('mdv_forum_moderators') }}:
+
+	<xf:foreach loop="$moderators" value="$moderator">
+		<xf:username user="{$moderator.User}" rich="true" />
+	</xf:foreach>
+</xf:if>

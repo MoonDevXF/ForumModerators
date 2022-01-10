@@ -1,0 +1,9 @@
+{
+    "template": "forum_view",
+    "description": "Add moderators list",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<xf:extension name=\"above_node_list\"></xf:extension>",
+    "replace": "$0\n<xf:include template=\"mdv_forum_moderators\" />"
+}

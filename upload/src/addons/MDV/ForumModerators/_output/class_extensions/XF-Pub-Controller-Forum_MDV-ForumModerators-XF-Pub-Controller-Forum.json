@@ -1,0 +1,6 @@
+{
+    "from_class": "XF\\Pub\\Controller\\Forum",
+    "to_class": "MDV\\ForumModerators\\XF\\Pub\\Controller\\Forum",
+    "execute_order": 15,
+    "active": true
+}
