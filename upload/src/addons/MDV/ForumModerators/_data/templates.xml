@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates>
+  <template type="public" title="mdv_forum_moderators" version_id="1000070" version_string="1.0.0"><![CDATA[<xf:if is="count($moderators)">
+	{{ phrase('mdv_forum_moderators') }}:
+
+	<xf:foreach loop="$moderators" value="$moderator">
+		<xf:username user="{$moderator.User}" rich="true" />
+	</xf:foreach>
+</xf:if>]]></template>
+</templates>

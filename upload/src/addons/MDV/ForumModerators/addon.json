@@ -1,0 +1,21 @@
+{
+    "legacy_addon_id": "",
+    "title": "[MDV] Forum Moderators",
+    "description": "Display forum moderators in current forum",
+    "version_id": 1000070,
+    "version_string": "1.0.0",
+    "dev": "MoonDev Studios",
+    "dev_url": "https://moondev.ru/",
+    "faq_url": "",
+    "support_url": "",
+    "extra_urls": {
+        "Deku": "https://t.me/deku_fx/"
+    },
+    "require": {
+        "php": [
+            "7.3",
+            "PHP 7.3+"
+        ]
+    },
+    "icon": "far fa-gavel"
+}

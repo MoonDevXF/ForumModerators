@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class_extensions>
+  <extension from_class="XF\Pub\Controller\Forum" to_class="MDV\ForumModerators\XF\Pub\Controller\Forum" execute_order="15" active="1"/>
+</class_extensions>
